@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>no.ezand</groupId>
+    <artifactId>mime-detector</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>mime-detector</name>
+    <description>An implementation of the Java 7 FileContentDetector using MimeUtils2</description>
+    <url>https://github.com/ezand/mime-detector</url>
+
+    <scm>
+        <connection>scm:git:git@github.com:ezand/mime-detector.git</connection>
+        <url>scm:git:git@github.com:ezand/mime-detector.git</url>
+        <developerConnection>scm:git:git@github.com:ezand/mime-detector.git</developerConnection>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>eirik</id>
+            <name>Eirik Stenersen Sand</name>
+            <email>eiriksand@gmail.com</email>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>eu.medsea.mimeutil</groupId>
+            <artifactId>mime-util</artifactId>
+            <version>2.1.3</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
