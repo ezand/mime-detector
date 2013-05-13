@@ -17,6 +17,18 @@
         <developerConnection>scm:git:git@github.com:ezand/mime-detector.git</developerConnection>
     </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>repo</id>
+            <url>https://github.com/ezand/ezand-maven-repo/raw/master/releases</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>snapshot-repo</id>
+            <url>https://github.com/ezand/ezand-maven-repo/raw/master/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
